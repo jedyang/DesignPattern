@@ -284,9 +284,9 @@ Returns an instance of a proxy class for the specified interfaces that dispatche
 
 我们看到，在真正通过代理对象来调用真实对象的方法的时候，我们可以在该方法前后添加自己的一些操作，同时我们看到我们的这个 method 对象是这样的：
 
-```public abstract void com.xiaoluo.dynamicproxy.Subject.rent()```
+```public abstract void com.yunsheng.dynamicproxy.Subject.rent()```
 
-```public abstract void com.xiaoluo.dynamicproxy.Subject.hello(java.lang.String)```  
+```public abstract void com.yunsheng.dynamicproxy.Subject.hello(java.lang.String)```  
 正好就是我们的Subject接口中的两个方法，这也就证明了当我通过代理对象来调用方法的时候，起实际就是委托由其关联到的 handler 对象的invoke方法中来调用，并不是自己来真实调用，而是通过代理的方式来调用的。
 
 这就是我们的java动态代理机制
