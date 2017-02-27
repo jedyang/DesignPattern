@@ -6,3 +6,11 @@ DesignPattern/.idea/compiler.xml
 DesignPattern/out/production/DesignPattern/com/yunsheng/proxy/Client.class
 
 *.class
+
+*.xml
+
+*.xml
+
+DesignPattern/.idea/workspace.xml
+
+*.iml
